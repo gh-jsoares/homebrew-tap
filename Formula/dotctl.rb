@@ -7,10 +7,10 @@ class Dotctl < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/gh-jsoares/dotctl/releases/download/v#{version}/dotctl_darwin_arm64"
-      sha256 "93eef204aba03c4ffd988011b40e027da76435e634d040fa35528ec484a86078"
+      sha256 "aaae295868b7b9c0c1e218325e7b2b5895fc7d8b13bce1cfcba37d4e0148c1a6"
     else
       url "https://github.com/gh-jsoares/dotctl/releases/download/v#{version}/dotctl_darwin_amd64"
-      sha256 "0822302491d8ab16fc03346d1f8b192e1ee31cff61eb143adcae941b321fb5bf"
+      sha256 "028d962ba25795b17e304ba4dd835cedf2ea7b141afc1dcfd6059d8249093af8"
     end
   end
 
