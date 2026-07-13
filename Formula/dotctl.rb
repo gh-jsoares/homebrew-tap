@@ -1,16 +1,16 @@
 class Dotctl < Formula
   desc "Developer environment orchestrator for macOS"
   homepage "https://github.com/gh-jsoares/dotctl"
-  version "0.4.2"
+  version "0.4.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/gh-jsoares/dotctl/releases/download/v#{version}/dotctl_darwin_arm64"
-      sha256 "d1e1e59a997c98859e55f4d11986a6a3371701247577adf599ff51157ece1a84"
+      sha256 "f9febba7dc1155540d5c62d6d3b009bf4995e31b17d38031b02161893eb900d7"
     else
       url "https://github.com/gh-jsoares/dotctl/releases/download/v#{version}/dotctl_darwin_amd64"
-      sha256 "e8292a0ccb97b850c39ae2b98927b7dbe7025b2f17ff5d29bb5a7f74f87e22e6"
+      sha256 "c57757a72200693b8ed4f823bd552179e67d4e56f64edf3059a14f5ecd528646"
     end
   end
 
